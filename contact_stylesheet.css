@@ -1,0 +1,82 @@
+@charset "utf-8";
+/* CSS Document */
+
+body {
+	background-image: url(https://github.com/gsamarth882/Progate1/blob/master/contact.jpg);
+	background-size: cover;
+	margin: 0;
+  	font-family: "Lucida Grande";
+}
+
+header {
+  height: 65px;
+  width: 100%;
+  background-color: rgba(34, 49, 52, 0.9);
+  position: fixed;
+  top: 0;
+  z-index: 10;
+  
+ 
+  
+}
+
+
+.home, .contact, .quiz, .soft {
+  float: left;
+  background-color: rgba(255, 255, 255, 0.3);
+  transition: all 0.5s;
+	margin-left: 10px;
+}
+
+.contact:hover, .home:hover, .quiz:hover, .soft:hover {
+  background-color: rgba(255, 255, 255, 0.5);
+}
+
+.header-left a {
+  line-height: 65px;
+  padding: 0 25px;
+  color: white;
+  display: block;
+}
+a {
+  text-decoration: none;
+}
+
+.form {
+	width: 300px;
+	border: 15px solid #050253;
+	length: 700px;
+	background-color: blue;
+	padding: 50px;
+  	margin: 20px auto;
+	margin-top: 100px;
+	color: white;
+}
+.form h1 {
+	text-align: center;
+}
+input[type=text], select {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+input[type=submit] {
+  width: 100%;
+  background-color: darkblue;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: aqua;
+}
+
